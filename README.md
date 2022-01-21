@@ -1,6 +1,6 @@
 # Python SDK for wcs
 
-## [中文README](https://github.com/Wangsu-Cloud-Storage/wcs-python-sdk/blob/master/README-CN.md)
+## [中文README](https://github.com/CDNetworks-Object-Storage/wcs-python3-sdk/blob/main/README-CN.md)
 
 ## Overview
 

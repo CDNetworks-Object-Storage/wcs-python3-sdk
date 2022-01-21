@@ -1,5 +1,5 @@
 # WCS Python SDK用户文档
-## [README of English](https://github.com/Wangsu-Cloud-Storage/wcs-python-sdk/blob/master/README-EN.md)
+## [README of English](https://github.com/CDNetworks-Object-Storage/wcs-python3-sdk/blob/main/README.md)
 
 ## 概览
 wcs-python-sdk从v4.0.0版本开始，既可作为Python SDK使用，也可作为命令行工具使用
