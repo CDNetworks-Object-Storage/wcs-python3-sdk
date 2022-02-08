@@ -1,6 +1,5 @@
 # Python SDK for wcs
 
-## [中文README](https://github.com/CDNetworks-Object-Storage/wcs-python3-sdk/blob/main/README-CN.md)
 
 ## Overview
 
@@ -424,12 +423,12 @@ Table 1 Request parameters:
 
 | Parameter        | Required	| Description |
 | --------   | -----:   | :----: |
-| channelname        | 是      |   Streaming name of Live    |
-| startTime        | 是      |   Specify the start time of Live, the fromat is YYYYMMDDmmhhss   |
-| endTime	        | 是      |   Specify the end time of Live, the fromat is YYYYMMDDmmhhss   |
-|bucket             | 是      |Specify Bucket |
-|start              | 否      |Specify the start point, the query result will start from this point, e.g. 0,1,100. Default value is 1, means it will return result from 1st record.|
-|limit              |否       |Specify the number of quering. If it is empty, means query all records.|
+| channelname        | Yes      |   Streaming name of Live    |
+| startTime        | Yes      |   Specify the start time of Live, the fromat is YYYYMMDDmmhhss   |
+| endTime	        | Yes      |   Specify the end time of Live, the fromat is YYYYMMDDmmhhss   |
+|bucket             | Yes      |Specify Bucket |
+|start              | No      |Specify the start point, the query result will start from this point, e.g. 0,1,100. Default value is 1, means it will return result from 1st record.|
+|limit              | No       |Specify the number of quering. If it is empty, means query all records.|
 
 ```
 eg: cli.wslive_list(channelname,startTime,startTime, bucket,start,limit)
